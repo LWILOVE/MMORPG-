@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+	<AssetBundle>
+		<!--格式说明：<Item Name="系列名" Tag="系列标签" IsFolder="是否是文件夹" IsFirstData="是否是初始数据">
+		              <Path > Value = "系列内文件路径（datapath后面的路径，若为文件夹则只需检索到文件夹级，若不是文件夹
+					  则应该逐一列举所有文件）"</Item>-->
+		<Item Name="玩家预设" Tag="Role" IsFolder="True" IsFirstData="True">
+			<Path Value="Download\Prefab\RolePrefab\Player"/>
+		</Item>
+
+		<Item Name="NPC预设" Tag="Role" IsFolder="True" IsFirstData="True">
+			<Path Value="Download\Prefab\RolePrefab\NPC" />
+		</Item>
+
+		<Item Name="怪预设" Tag="Role" IsFolder="True" IsFirstData="False">
+			<Path Value="Download\Prefab\RolePrefab\Monster" />
+		</Item>
+		<Item Name="通用特效" Tag="Effect" IsFolder="True" IsFirstData="True">
+			<Path Value="Download\Prefab\Effect\Common" />
+		</Item>
+		<Item Name="角色技能特效" Tag="Effect" IsFolder="True" IsFirstData="False">
+			<Path Value="Download\Prefab\Effect\Role" />
+		</Item>
+		<Item Name="UI预设" Tag="UI" IsFolder="True" IsFirstData="False">
+			<Path Value="Download\Prefab\UIPrefab" />
+		</Item>
+		<Item Name="UI资源" Tag="UI" IsFolder="True" IsFirstData="False">
+			<Path Value="Download\Source\UISource" />
+		</Item>
+		<Item Name="音效文件" Tag="Audio" IsFolder="True" IsFirstData="False">
+			<Path Value="Download\Audio" />
+		</Item>
+		<Item Name="场景" Tag="Scene" IsFolder="False" IsFirstData="True">
+			<Path Value="Download\Scene\BasicScene_SelectRole.unity" />
+			<Path Value="Download\Scene\CityScene_MainCity.unity" />
+			<Path Value="Download\Scene\CityScene_ChangAn.unity" />
+			<Path Value="Download\Scene\CityScene_HangZhou.unity" />
+			<Path Value="Download\Scene\LargeLevelScene_DiWangMuLV1.unity" />
+			<Path Value="Download\Scene\LargeLevelScene_DiWangMuLV2.unity" />
+			<Path Value="Download\Scene\LargeLevelScene_DiWangMuLV3.unity" />
+			<Path Value="Download\Scene\LargeLevelScene_DiWangMuLV4.unity" />
+			<Path Value="Download\Scene\LargeLevelScene_DiWangMuLV5.unity" />
+			<Path Value="Download\Scene\LevelScene_ChangBaiShan.unity" />
+			<Path Value="Download\Scene\LevelScene_DunHuang.unity" />
+			<Path Value="Download\Scene\LevelScene_JiuQuan.unity" />
+			<Path Value="Download\Scene\LevelScene_MeiLing.unity" />
+			<Path Value="Download\Scene\LevelScene_ShanGu.unity" />
+			<Path Value="Download\Scene\LevelScene_WuYiShan.unity" />
+			<Path Value="Download\Scene\LevelScene_XueLangGu.unity" />
+		</Item>
+	</AssetBundle>
+</Root>
